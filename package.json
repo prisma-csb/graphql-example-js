@@ -1,19 +1,13 @@
 {
-  "name": "prisma-based-graphql-server-example-js",
+  "name": "node-graphql",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "prisma": "1.23.4"
-  },
   "dependencies": {
-    "graphql": "^14.0.2",
-    "graphql-yoga": "^1.16.9",
-    "prisma-client-lib": "^1.23.4"
+    "graphql-yoga": "^1.16.1",
+    "prisma-client-lib": "1.23.4"
   },
   "scripts": {
-    "start": "node ./src/index.js"
-  },
-  "keywords": [],
-  "description": "A simple GraphQL server for a blogging application, implemented with Node.JS and Prisma."
+    "start": "node src/index.js"
+  }
 }
