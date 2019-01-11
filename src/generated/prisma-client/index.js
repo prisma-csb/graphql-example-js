@@ -16,6 +16,6 @@ var models = [
 exports.Prisma = prisma_lib_1.makePrismaClientClass({
   typeDefs,
   models,
-  endpoint: `https://service-hqaedcylmy.now.sh/` // This is a dummy service with disabled mutations
+  endpoint: `https://service-use-cases-pyauzssgla.now.sh/` // This is a dummy service with disabled mutations
 })
 exports.prisma = new exports.Prisma()
