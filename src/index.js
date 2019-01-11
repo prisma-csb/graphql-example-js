@@ -8,7 +8,6 @@ const { prisma } = require('./generated/prisma-client')
  * Follow the instructions here: https://github.com/prisma-csb/graphql-example-js/blob/master/SETUP.md
  */
 
-
 const resolvers = {
   Query: {
     feed: (parent, args, context) => {
