@@ -1,6 +1,14 @@
 const { GraphQLServer } = require('graphql-yoga')
 const { prisma } = require('./generated/prisma-client')
 
+/**
+ * 🚀 Run `yarn start` to start the GraphQL server. 
+ * 
+ * 💡 To explore all available features, fork the CodeSandbox and connect it to your own demo database.
+ * Follow the instructions here: https://github.com/prisma-csb/graphql-example-js/blob/master/SETUP.md
+ */
+
+
 const resolvers = {
   Query: {
     feed: (parent, args, context) => {
